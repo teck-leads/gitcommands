@@ -20,10 +20,12 @@ public class AngryProfessor {
 				count++;
 				if (k == (count)) {
 					result = "NO";
+					System.out.println(count+" "+result);
 					break;
 				}
 			}
 		}
+		System.out.println(result);
 		return result;
 	}
 
