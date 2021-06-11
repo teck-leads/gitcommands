@@ -1,0 +1,84 @@
+1. If you want to view the changes since last commit in a specific file, which command should you use?
+<><>git diff filename
+2. What is the Git command to view all the commits since 1st January 2017 ?
+<><> git log --since="2017-01-01"
+3. Which command shows the changes between commits?
+<><>git diff
+4. What is the Git command to view the last 3 commits in one line ?
+<><> git log --oneline -3
+5. How to display only the names of the changed files?
+<><> git diff --name-only
+6. Which command would you use to view the history of commits?
+<><> git log
+7. If you want to view the changes since last commit in a specific file, which command should you use?
+<><> git diff filename
+8. Which type of remote URL does not require your user-name and password while for cloning or pushing?
+<><> Https url
+9. When you run git fetch from your local repo, it will update your local changes in working area?
+false: it updates local repo only and does not affect the working area
+10. Which command can you use to update remote refs with local refs?
+<><>git push
+
+11. What is a good practice to follow when you want to backup a local branch?
+<><>Push to Remote repo
+12. What is the command to delete a branch in your remote repository?
+<><>git push origin -d <branch-name>
+13. What is the Git command to create a branch?
+<><> git branch branchname
+14. Which of the following equation is true?
+git pull= git fetch + git merge
+15. Which of the following creates new commit when you pull new changes from master to the feature branch?
+<><> git merge master
+16. How can you fix a broken commit?
+<><> git commit -amend
+17. How to delete unpublished Git commits and get rid of them permanently?
+<><> git revert wrong
+<><> git reset --hard
+
+18. What is the command to reset your index as well as the working directory to the state of your last commit?
+<><>git reset
+19. What is the Git command to blow away all the changes in a file in the working area, since the previous commit?
+git checkout filename
+
+20. What does the command Git reset –- soft HEAD^ perform?
+
+<><> moves commit to one before current head
+
+21. How can you temporarily switch to a different commit?
+
+git checkout commitSHA
+
+22. What is the Git command to view all the changes since the last commit ?
+<><> git status
+
+23. What is the Git command to view all the remote branches?
+<><> git branch -r
+24. What does the command git checkout branchname do?
+<><> Switches from main branch to the new branch
+
+25. How would you display the list of files changed in a particular commit SHA ?
+<><> git show --name-only SHA1
+
+26. What does the command git add . do?
+<><> Adds all the files to the staging area
+27. What is the command to view all the commits made by a specific person (Jim)?
+<><>
+28. Which command shows the difference between the working directory and the index or staging area?
+<><> git status
+29. Which of the following best describes Git?
+<><> version control System
+Adding to remote
+https://superuser.com/questions/1412078/bring-a-local-folder-to-remote-git-repo
+Branch creations
+<||><||><||><||>Branch Operations<||><||><||><||>
+You can do the following with branch:
+Creating new branch: git checkout -b <branch-name>
+Pushing branch from local to remote repo: git push origin <branch-name>
+Renaming branch:
+Renaming local branch: git branch -m old-name new-name
+Renaming remote branch: git push origin :old-name new-name
+Deleting branch:
+Deleting local branch: git branch -d <branch-name>
+Deleting remote branch: git push origin -d <branch-name>
+
+The command git checkout -b <new branch name> will create and checkout the newly created branch.
